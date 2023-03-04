@@ -1,0 +1,53 @@
+*{
+padding:0;
+font-family: 'Gill Sans', 'Gill Sans MT';
+margin:0;
+box-sizing: border-box;
+background: fixed;
+background-color:transparent;
+}
+    
+
+body{
+width: 100%;
+min-height:100vh;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
+
+form{
+width: 400px;
+display: flex;
+flex-direction: column;
+background: rgba(117, 246, 70, 0.1);
+padding: 25px;
+border-radius: 10px;
+}
+
+form input{
+height:40px;
+margin-bottom: 10px;
+}
+
+form input[type="submit"]{
+width: 25%;
+border-radius: 50px;
+border: none;
+background: darkorange;
+color:white;
+}
+
+form input[type="submit"]:hover{
+cursor: pointer;
+}
+
+.move{
+transform:translateX(300%)
+}
+.stop{
+    transition: 0.2s;
+     }
+    
